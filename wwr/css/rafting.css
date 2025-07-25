@@ -7,9 +7,16 @@
   --body-font: "Lato", sans-serif;
 }
 
-header {
-  background-color: #264653
+main {
+  text-align: center;
+}
 
+
+header {
+  background-color: #3677901d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 * {
@@ -17,6 +24,7 @@ header {
   padding: 0;
   box-sizing: border-box;
 }
+
 
 body {
   font-family: var(--body-font);
@@ -29,8 +37,11 @@ header, main, footer {
 }
 
 h1, h2 {
+  display: center;
   font-family: var(--heading-font);
   color: #055a05
+   
+  
 }
 
 nav, p, section, article {
@@ -43,3 +54,4 @@ nav, p, section, article {
   height: auto;
 
 }
+
