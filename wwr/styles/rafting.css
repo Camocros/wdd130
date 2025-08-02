@@ -37,19 +37,7 @@ header, main, footer {
   margin: 0 auto;
 }
 
-h1 {
-  display: center;
-  font-family: var(--heading-font);
-  color: #055a05
-  
-}
 
-h2 {
-  display: center;
-  font-family: var(--heading-font);
-  color: #055a05
-  
-} 
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
