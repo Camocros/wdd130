@@ -86,3 +86,14 @@ nav, p, section, article {
  
 
 }
+
+.footer,p { text-align: center;
+  }
+
+  .socialmedia { text-align: center;
+  }
+
+#about-us {
+  display: flex;
+  gap: 20px; /* Espacio opcional entre imágenes */
+}
