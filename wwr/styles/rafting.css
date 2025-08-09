@@ -88,5 +88,24 @@ nav, p, section, article {
 
 #about-us {
   display: flex;
-  gap: 20px; /* Espacio opcional entre imágenes */
+  gap: 20px;
+}
+
+.trips-table table {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  border-collapse: collapse;
+}
+
+.trips-grid {
+  display: flex;
+
+
+}
+
+.trips-grid img {
+  max-width: 100%;  
+  height: auto;     
+  display: block;   
 }
